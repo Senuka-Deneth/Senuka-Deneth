@@ -82,8 +82,8 @@ FastAPI, Docker, REST APIs
 
 ## 📫 Connect
 
-* LinkedIn: (add your link)
-* Email: (optional)
+* LinkedIn: linkedin.com/in/senuka-deneth-70937a345
+* Email: senukadeneth2004@icloud.com
 
 ---
 
