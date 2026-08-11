@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img" aria-label="Focus areas">
+  <defs>
+    <linearGradient id="barTeal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="barSky" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="160" rx="12" fill="#0b1728"/>
+
+  <!-- Labels -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#94a3b8">
+    <text x="24" y="38">AI Agents</text>
+    <text x="24" y="72">LLMs / RAG</text>
+    <text x="24" y="106">Deep Learning</text>
+    <text x="24" y="140">Full-Stack</text>
+  </g>
+
+  <!-- Animated bars -->
+  <rect x="140" y="24" height="18" rx="9" fill="url(#barTeal)">
+    <animate attributeName="width" values="0;620;620" keyTimes="0;0.4;1" dur="2.4s" fill="freeze"/>
+  </rect>
+  <rect x="140" y="58" height="18" rx="9" fill="url(#barCyan)">
+    <animate attributeName="width" values="0;680;680" keyTimes="0;0.45;1" dur="2.6s" fill="freeze"/>
+  </rect>
+  <rect x="140" y="92" height="18" rx="9" fill="url(#barSky)">
+    <animate attributeName="width" values="0;540;540" keyTimes="0;0.5;1" dur="2.8s" fill="freeze"/>
+  </rect>
+  <rect x="140" y="126" height="18" rx="9" fill="url(#barTeal)">
+    <animate attributeName="width" values="0;500;500" keyTimes="0;0.55;1" dur="3s" fill="freeze"/>
+  </rect>
+
+  <!-- Soft shimmer -->
+  <rect x="140" y="24" width="40" height="120" fill="#ffffff" opacity="0.08">
+    <animate attributeName="x" values="140;820;140" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
