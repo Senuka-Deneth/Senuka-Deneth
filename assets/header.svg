@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Senuka Deneth  AI Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Senuka Deneth — AI Engineer">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a1628">
-        <animate attributeName="stop-color" values="#0a1628;#0d1f33;#0a1628" dur="8s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="0%" stop-color="#0a1628"/>
       <stop offset="50%" stop-color="#0f2744"/>
-      <stop offset="100%" stop-color="#071220">
-        <animate attributeName="stop-color" values="#071220;#0a1a2e;#071220" dur="8s" repeatCount="indefinite"/>
-      </stop>
+      <stop offset="100%" stop-color="#071220"/>
     </linearGradient>
     <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#14b8a6"/>
@@ -28,74 +24,89 @@
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e3a5f" stroke-width="0.6" opacity="0.45"/>
     </pattern>
+    <style>
+      <![CDATA[
+        .pulse { animation: pulse 3s ease-in-out infinite; }
+        .pulse2 { animation: pulse 2.5s ease-in-out infinite; animation-delay: 0.4s; }
+        .pulse3 { animation: pulse 2.8s ease-in-out infinite; animation-delay: 0.8s; }
+        .float { animation: floatY 4s ease-in-out infinite; }
+        .float2 { animation: floatY 3.6s ease-in-out infinite; animation-delay: 0.6s; }
+        .fadeLine { animation: fadeLine 4s ease-in-out infinite; }
+        .fadeLine2 { animation: fadeLine 4.5s ease-in-out infinite; animation-delay: 0.5s; }
+        .spin { animation: spin 28s linear infinite; transform-origin: 600px 160px; }
+        .spinRev { animation: spinRev 18s linear infinite; transform-origin: 600px 160px; }
+        .core { animation: corePulse 3s ease-in-out infinite; transform-origin: 600px 160px; }
+        .scan { animation: scan 6s linear infinite; }
+        .underline { animation: underline 5s ease-in-out infinite; }
+        .dot { animation: blink 2s ease-in-out infinite; }
+
+        @keyframes pulse {
+          0%, 100% { r: 4; opacity: 0.6; }
+          50% { r: 7; opacity: 1; }
+        }
+        @keyframes floatY {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-10px); }
+        }
+        @keyframes fadeLine {
+          0%, 100% { opacity: 0.2; }
+          50% { opacity: 0.5; }
+        }
+        @keyframes spin {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+        @keyframes spinRev {
+          from { transform: rotate(360deg); }
+          to { transform: rotate(0deg); }
+        }
+        @keyframes corePulse {
+          0%, 100% { r: 18; opacity: 0.12; }
+          50% { r: 26; opacity: 0.22; }
+        }
+        @keyframes scan {
+          from { transform: translateX(-80px); }
+          to { transform: translateX(1200px); }
+        }
+        @keyframes underline {
+          0%, 100% { transform: scaleX(0.55); }
+          50% { transform: scaleX(1); }
+        }
+        @keyframes blink {
+          0%, 100% { opacity: 0.7; }
+          50% { opacity: 1; }
+        }
+      ]]>
+    </style>
   </defs>
 
   <rect width="1200" height="320" fill="url(#bg)"/>
   <rect width="1200" height="320" fill="url(#grid)"/>
-  <rect x="0" y="0" width="1200" height="120" fill="url(#glow)"/>
+  <rect width="1200" height="120" fill="url(#glow)"/>
 
-  <!-- Neural network connections -->
-  <g stroke="#22d3ee" stroke-width="1" opacity="0.35" fill="none">
-    <path d="M80 80 L180 140 L280 90 L380 160 L480 100">
-      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M720 70 L820 130 L920 85 L1020 150 L1120 95">
-      <animate attributeName="opacity" values="0.5;0.2;0.5" dur="4.5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M100 220 L220 180 L340 240 L460 190">
-      <animate attributeName="opacity" values="0.15;0.4;0.15" dur="5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M740 230 L860 190 L980 250 L1100 200">
-      <animate attributeName="opacity" values="0.4;0.15;0.4" dur="5.5s" repeatCount="indefinite"/>
-    </path>
+  <g stroke="#22d3ee" stroke-width="1" fill="none">
+    <path class="fadeLine" d="M80 80 L180 140 L280 90 L380 160 L480 100"/>
+    <path class="fadeLine2" d="M720 70 L820 130 L920 85 L1020 150 L1120 95"/>
+    <path class="fadeLine" d="M100 220 L220 180 L340 240 L460 190" style="animation-delay:1s"/>
+    <path class="fadeLine2" d="M740 230 L860 190 L980 250 L1100 200" style="animation-delay:1.2s"/>
   </g>
 
-  <!-- Floating nodes -->
   <g filter="url(#softGlow)">
-    <circle cx="180" cy="140" r="5" fill="#14b8a6">
-      <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="280" cy="90" r="4" fill="#22d3ee">
-      <animate attributeName="r" values="3;6;3" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="380" cy="160" r="5" fill="#38bdf8">
-      <animate attributeName="cy" values="160;150;160" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="820" cy="130" r="5" fill="#14b8a6">
-      <animate attributeName="r" values="4;7;4" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="920" cy="85" r="4" fill="#22d3ee">
-      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1020" cy="150" r="5" fill="#38bdf8">
-      <animate attributeName="cy" values="150;140;150" dur="3.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="220" cy="180" r="3.5" fill="#67e8f9">
-      <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="860" cy="190" r="3.5" fill="#67e8f9">
-      <animate attributeName="r" values="3;5;3" dur="2.7s" repeatCount="indefinite"/>
-    </circle>
+    <circle class="pulse" cx="180" cy="140" r="5" fill="#14b8a6"/>
+    <circle class="pulse2" cx="280" cy="90" r="4" fill="#22d3ee"/>
+    <circle class="float" cx="380" cy="160" r="5" fill="#38bdf8"/>
+    <circle class="pulse3" cx="820" cy="130" r="5" fill="#14b8a6"/>
+    <circle class="pulse" cx="920" cy="85" r="4" fill="#22d3ee"/>
+    <circle class="float2" cx="1020" cy="150" r="5" fill="#38bdf8"/>
+    <circle class="pulse2" cx="220" cy="180" r="3.5" fill="#67e8f9"/>
+    <circle class="pulse3" cx="860" cy="190" r="3.5" fill="#67e8f9"/>
   </g>
 
-  <!-- Orbiting ring -->
-  <g transform="translate(600,160)">
-    <circle r="78" fill="none" stroke="#14b8a6" stroke-width="1" opacity="0.25" stroke-dasharray="8 10">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="58" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.3" stroke-dasharray="4 8">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="22" fill="#0ea5e9" opacity="0.15">
-      <animate attributeName="r" values="18;26;18" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle r="8" fill="#22d3ee" filter="url(#softGlow)">
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <circle class="spin" cx="600" cy="160" r="78" fill="none" stroke="#14b8a6" stroke-width="1" opacity="0.25" stroke-dasharray="8 10"/>
+  <circle class="spinRev" cx="600" cy="160" r="58" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.3" stroke-dasharray="4 8"/>
+  <circle class="core" cx="600" cy="160" r="22" fill="#0ea5e9"/>
+  <circle class="dot" cx="600" cy="160" r="8" fill="#22d3ee" filter="url(#softGlow)"/>
 
-  <!-- Title -->
   <text x="600" y="148" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="url(#accent)">
     Senuka Deneth
   </text>
@@ -103,14 +114,9 @@
     AI ENGINEER  ·  ML SPECIALIST  ·  FULL-STACK
   </text>
 
-  <!-- Bottom accent line -->
-  <rect x="420" y="210" width="360" height="2" rx="1" fill="url(#accent)" opacity="0.7">
-    <animate attributeName="width" values="200;360;200" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="500;420;500" dur="5s" repeatCount="indefinite"/>
-  </rect>
+  <g transform="translate(600,211)">
+    <rect class="underline" x="-180" y="-1" width="360" height="2" rx="1" fill="url(#accent)" opacity="0.7" style="transform-origin: center;"/>
+  </g>
 
-  <!-- Scanning beam -->
-  <rect x="0" y="0" width="80" height="320" fill="url(#glow)" opacity="0.4">
-    <animate attributeName="x" values="-80;1200" dur="6s" repeatCount="indefinite"/>
-  </rect>
+  <rect class="scan" x="0" y="0" width="80" height="320" fill="url(#glow)" opacity="0.35"/>
 </svg>
