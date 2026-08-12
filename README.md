@@ -9,7 +9,7 @@
 
   ### `AI Engineer` • `ML Specialist` • `Full-Stack Developer`
 
-  <img src="./assets/coding-header.gif" alt="Senuka coding at a minimal Apple multi-monitor desk" width="100%" />
+  <img src="./assets/coding-header.gif" alt="Back view — typing at a minimal Apple multi-monitor desk" width="100%" />
 
   <br/>
 
