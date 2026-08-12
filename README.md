@@ -9,11 +9,11 @@
 
   ### `AI Engineer` • `ML Specialist` • `Full-Stack Developer`
 
-  <img src="./assets/coding-header.gif" alt="Back view typing loop at a minimal Apple multi-monitor desk" width="100%" />
+  <img src="./assets/coding-header.gif" alt="Full back view typing loop at a minimal Apple multi-monitor desk" width="100%" />
 
   <br/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=720&height=45&lines=Building+intelligent+systems+that+ship;AI+Agents+%C2%B7+LLMs+%C2%B7+RAG+%C2%B7+Full-Stack;Main+engineer+on+Nexus+OS+%3A+Revenue+Command+Center" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=720&height=45&lines=Building+intelligent+systems+that+ship;Multi-Agent+Systems+%C2%B7+LLMs+%C2%B7+RAG+%C2%B7+Generative+AI;Main+engineer+on+Nexus+OS+%3A+Revenue+Command+Center" alt="Typing animation" />
 
   <br/><br/>
 
@@ -33,13 +33,13 @@
 
 ## About Me
 
-Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc Hons in Artificial Intelligence). I design agents, RAG systems, and full-stack products : turning research into tools people can ship and use.
+Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc Hons in Artificial Intelligence). I build AI-powered products and full-stack systems, with a focus on turning ideas into tools people can ship and use.
 
 **Right now I'm deep into:**
-- **AI agents** and intelligent operational workflows
-- **LLM / Generative AI** apps with grounded RAG
+- **Multi-agent systems** : design, orchestration, and real-world workflows
+- **LLMs & Generative AI** : applied models, tooling, and product integration
+- **RAG systems** : grounded retrieval for reliable, citation-backed answers
 - **Full-stack** product engineering (Next.js, Supabase, Electron)
-- Robotics & systems work (ROS 2, embedded control)
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
@@ -52,12 +52,12 @@ Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc
 <br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/LLMs-1d4ed8?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs" />
-  <img src="https://img.shields.io/badge/RAG%20Systems-2563eb?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="RAG" />
-  <img src="https://img.shields.io/badge/AI%20Agents-3b82f6?style=for-the-badge&logo=robotframework&logoColor=white" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/Multi--Agent%20Systems-1d4ed8?style=for-the-badge&logo=openai&logoColor=white" alt="Multi-Agent Systems" />
+  <img src="https://img.shields.io/badge/LLMs-2563eb?style=for-the-badge&logo=huggingface&logoColor=white" alt="LLMs" />
+  <img src="https://img.shields.io/badge/RAG%20Systems-3b82f6?style=for-the-badge&logo=elasticsearch&logoColor=white" alt="RAG" />
+  <img src="https://img.shields.io/badge/Generative%20AI-60a5fa?style=for-the-badge&logo=google&logoColor=white" alt="Generative AI" />
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
   <img src="https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
-  <img src="https://img.shields.io/badge/ROS%202-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS 2" />
 </p>
 
 <img src="./assets/divider.svg" alt="" width="100%" />
@@ -119,12 +119,11 @@ Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc
       <p><a href="https://smart-weighing-machine.vercel.app">Live demo</a></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Senuka-Deneth/StairDOC">StairDOC / StairBot</a></h3>
-      <p>Autonomous stair-climbing document-delivery robot (UoM AI). Raspberry Pi 4 + ROS 2 Humble navigation with ESP32 micro-ROS reactive drive / IMU / ultrasonic safety layer.</p>
+      <h3><a href="https://github.com/Senuka-Deneth/StairDOC">StairDOC</a></h3>
+      <p>Stair-climbing document-delivery robot project (UoM AI). Worked on navigation and systems integration across Raspberry Pi and embedded control.</p>
       <p>
         <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS 2" />
       </p>
     </td>
   </tr>
@@ -180,7 +179,7 @@ Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc
 | **Coursera** | Professional development |
 | **CodeSignal** | Algorithm training |
 
-**Foundations:** Linear Algebra · Eigenvectors · Probability & Statistics · Deep Learning · LLM architecture · RAG design
+**Foundations:** Linear Algebra · Probability & Statistics · Deep Learning · LLMs · RAG · Generative AI · Multi-agent systems
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
@@ -230,10 +229,10 @@ Focus: ML, DL, AI systems, and mathematical foundations
 
 ## Goals
 
-1. **Master AI Engineering** : agents, RAG, and production ML systems  
-2. **Ship Real Products** : like Nexus OS, from hackathon win to multi-tenant SaaS  
-3. **Build in Public** : disciplined learning and open collaboration  
-4. **Start an AI Business** : create lasting value through entrepreneurship
+1. **Master multi-agent systems** : orchestration, tooling, and production workflows  
+2. **Deepen LLMs, RAG & Generative AI** : build reliable applied AI products  
+3. **Ship real products** : like Nexus OS, from hackathon win to multi-tenant SaaS  
+4. **Build in public** : disciplined learning and open collaboration
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
