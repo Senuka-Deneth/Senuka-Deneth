@@ -1,5 +1,5 @@
 <!-- ============================================================
-     GitHub Profile README — Senuka Deneth
+     GitHub Profile README : Senuka Deneth
      Animated GIF header · Blue theme · Live snake · Real repos
      ============================================================ -->
 
@@ -9,11 +9,11 @@
 
   ### `AI Engineer` • `ML Specialist` • `Full-Stack Developer`
 
-  <img src="./assets/coding-header.gif" alt="Back view — typing at a minimal Apple multi-monitor desk" width="100%" />
+  <img src="./assets/coding-header.gif" alt="Back view : typing at a minimal Apple multi-monitor desk" width="100%" />
 
   <br/>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=720&height=45&lines=Building+intelligent+systems+that+ship;AI+Agents+%C2%B7+LLMs+%C2%B7+RAG+%C2%B7+Full-Stack;Main+engineer+on+Nexus+OS+%E2%80%94+Revenue+Command+Center" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=900&color=60A5FA&center=true&vCenter=true&width=720&height=45&lines=Building+intelligent+systems+that+ship;AI+Agents+%C2%B7+LLMs+%C2%B7+RAG+%C2%B7+Full-Stack;Main+engineer+on+Nexus+OS+%3A+Revenue+Command+Center" alt="Typing animation" />
 
   <br/><br/>
 
@@ -33,7 +33,7 @@
 
 ## About Me
 
-Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc Hons in Artificial Intelligence). I design agents, RAG systems, and full-stack products — turning research into tools people can ship and use.
+Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc Hons in Artificial Intelligence). I design agents, RAG systems, and full-stack products : turning research into tools people can ship and use.
 
 **Right now I'm deep into:**
 - **AI agents** and intelligent operational workflows
@@ -69,14 +69,14 @@ Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (B
 <table>
   <tr>
     <td colspan="2" valign="top">
-      <h3>🏆 <a href="https://github.com/Praveen-R-2518/Nexus-OS">Nexus OS — Revenue Command Center</a></h3>
+      <h3>🏆 <a href="https://github.com/Praveen-R-2518/Nexus-OS">Nexus OS : Revenue Command Center</a></h3>
       <p>
         <b>My biggest project to date.</b> AI-powered operational layer that prevents revenue leakage and customer churn.
         Monitors Gmail, classifies intent/churn risk with GPT-4o, drafts replies, and routes high-stakes sends through a founder approval queue.
         <br/><br/>
-        <b>Role:</b> Main engineer / top contributor (<code>Senuka-Deneth</code> — 228 contributions on
+        <b>Role:</b> Main engineer / top contributor (<code>Senuka-Deneth</code> : 228 contributions on
         <a href="https://github.com/Praveen-R-2518/Nexus-OS">Praveen-R-2518/Nexus-OS</a>)<br/>
-        <b>Highlight:</b> Cursor Colombo Buildathon — <b>n8n Track Winner</b><br/>
+        <b>Highlight:</b> Cursor Colombo Buildathon : <b>n8n Track Winner</b><br/>
         <b>Live:</b> <a href="https://nexus-os-umber.vercel.app">nexus-os-umber.vercel.app</a>
       </p>
       <p>
@@ -91,7 +91,7 @@ Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (B
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Senuka-Deneth/Forge">Forge</a></h3>
-      <p>Real-time Binance spot dashboard with deterministic technical analysis, optional OpenRouter LLM narrative layer, and closed-loop calibration — numbers first, AI second.</p>
+      <p>Real-time Binance spot dashboard with deterministic technical analysis, optional OpenRouter LLM narrative layer, and closed-loop calibration : numbers first, AI second.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
         <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
@@ -112,7 +112,7 @@ Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (B
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Senuka-Deneth/SmartWeighingMachine">Smart Stock Monitor</a></h3>
-      <p>Next.js + Supabase maintenance dashboard for supermarket dispensing machines — realtime stock, auth, and low-stock PWA push alerts.</p>
+      <p>Next.js + Supabase maintenance dashboard for supermarket dispensing machines : realtime stock, auth, and low-stock PWA push alerts.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js" alt="Next.js" />
         <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" />
@@ -133,7 +133,7 @@ Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (B
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Senuka-Deneth/Clean-RAG-Application-Flask">Clean RAG · Flask</a></h3>
-      <p>Local RAG over uploaded documents with citation-backed answers via Ollama LLMs and a Flask UI — designed to reduce hallucination.</p>
+      <p>Local RAG over uploaded documents with citation-backed answers via Ollama LLMs and a Flask UI : designed to reduce hallucination.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
         <img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
@@ -153,7 +153,7 @@ Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (B
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Senuka-Deneth/knurdz-marketplace">Knurdz Marketplace</a></h3>
-      <p>Multi-role marketplace (buyer / seller / admin) with Next.js + Appwrite — listings, PayHere + bank-transfer checkout, moderation.</p>
+      <p>Multi-role marketplace (buyer / seller / admin) with Next.js + Appwrite : listings, PayHere + bank-transfer checkout, moderation.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js" alt="Next.js" />
         <img src="https://img.shields.io/badge/Appwrite-F02E65?style=flat-square&logo=appwrite&logoColor=white" alt="Appwrite" />
@@ -162,7 +162,7 @@ Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (B
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Senuka-Deneth/spring-boot-crud">Spring Boot CRUD API</a></h3>
-      <p>Student CRUD REST API with Maven — Spring Boot foundations for backend services (Lab-05 Part 02).</p>
+      <p>Student CRUD REST API with Maven : Spring Boot foundations for backend services (Lab-05 Part 02).</p>
       <p>
         <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
         <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
@@ -225,17 +225,17 @@ Hey — I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (B
 
 ## Education
 
-**University of Moratuwa** — BSc (Hons) in Artificial Intelligence  
+**University of Moratuwa** : BSc (Hons) in Artificial Intelligence  
 Focus: ML, DL, AI systems, and mathematical foundations
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Goals
 
-1. **Master AI Engineering** — agents, RAG, and production ML systems  
-2. **Ship Real Products** — like Nexus OS, from hackathon win to multi-tenant SaaS  
-3. **Build in Public** — disciplined learning and open collaboration  
-4. **Start an AI Business** — create lasting value through entrepreneurship
+1. **Master AI Engineering** : agents, RAG, and production ML systems  
+2. **Ship Real Products** : like Nexus OS, from hackathon win to multi-tenant SaaS  
+3. **Build in Public** : disciplined learning and open collaboration  
+4. **Start an AI Business** : create lasting value through entrepreneurship
 
 <img src="./assets/divider.svg" alt="" width="100%" />
 
