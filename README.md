@@ -69,13 +69,13 @@ Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc
     <td colspan="2" valign="top">
       <h3>🏆 <a href="https://github.com/Praveen-R-2518/Nexus-OS">Nexus OS : Revenue Command Center</a></h3>
       <p>
-        <b>My biggest project to date.</b> AI-powered operational layer that prevents revenue leakage and customer churn.
-        Monitors Gmail, classifies intent/churn risk with GPT-4o, drafts replies, and routes high-stakes sends through a founder approval queue.
+        <b>My biggest project to date.</b> AI-powered operational layer that prevents revenue leakage and customer churn and a assistant and a helping companion for founders to manage their startups and businesses.
+        Monitors Gmail, classifies intent/churn risk with GPT-4o, drafts replies, and routes high-stakes sends through a founder approval queue, generate a buy back report, analyze massages and business reports through a RAG pipeline, provide specialist advises, social media content management facilities and many more...
         <br/><br/>
-        <b>Role:</b> Main engineer / top contributor (<code>Senuka-Deneth</code> : 228 contributions on
+        <b>Role:</b> Workflow engineer / contributor (<code>Senuka-Deneth</code> : 228 contributions on
         <a href="https://github.com/Praveen-R-2518/Nexus-OS">Praveen-R-2518/Nexus-OS</a>)<br/>
         <b>Highlight:</b> Cursor Colombo Buildathon : <b>n8n Track Winner</b><br/>
-        <b>Live:</b> <a href="https://nexus-os-umber.vercel.app">nexus-os-umber.vercel.app</a>
+        <b>Live:</b> <a href="https://nexusos.knurdz.org">nexuses.knurdz.org</a>
       </p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js" alt="Next.js" />
