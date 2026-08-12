@@ -9,7 +9,7 @@
 
   ### `AI Engineer` • `ML Specialist` • `Full-Stack Developer`
 
-  <img src="./assets/coding-header.gif" alt="Full back view typing loop at a minimal Apple multi-monitor desk" width="100%" />
+  <img src="./assets/coding-header.gif" alt="Lo-fi back-view typing loop at a blue Apple multi-monitor desk" width="100%" />
 
   <br/>
 
