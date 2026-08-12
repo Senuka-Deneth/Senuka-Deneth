@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160" role="img" aria-label="Focus areas">
+  <defs>
+    <linearGradient id="barTeal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891b2"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="barSky" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <style>
+      <![CDATA[
+        .bar1 { animation: grow1 2.4s ease-out forwards; }
+        .bar2 { animation: grow2 2.6s ease-out forwards; }
+        .bar3 { animation: grow3 2.8s ease-out forwards; }
+        .bar4 { animation: grow4 3s ease-out forwards; }
+        .shimmer { animation: shimmer 4s linear infinite; }
+        @keyframes grow1 { from { width: 0; } to { width: 620px; } }
+        @keyframes grow2 { from { width: 0; } to { width: 680px; } }
+        @keyframes grow3 { from { width: 0; } to { width: 540px; } }
+        @keyframes grow4 { from { width: 0; } to { width: 500px; } }
+        @keyframes shimmer {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(680px); }
+        }
+      ]]>
+    </style>
+  </defs>
+
+  <rect width="900" height="160" rx="12" fill="#0b1728"/>
+
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#94a3b8">
+    <text x="24" y="38">AI Agents</text>
+    <text x="24" y="72">LLMs / RAG</text>
+    <text x="24" y="106">Deep Learning</text>
+    <text x="24" y="140">Full-Stack</text>
+  </g>
+
+  <rect class="bar1" x="140" y="24" width="0" height="18" rx="9" fill="url(#barTeal)"/>
+  <rect class="bar2" x="140" y="58" width="0" height="18" rx="9" fill="url(#barCyan)"/>
+  <rect class="bar3" x="140" y="92" width="0" height="18" rx="9" fill="url(#barSky)"/>
+  <rect class="bar4" x="140" y="126" width="0" height="18" rx="9" fill="url(#barTeal)"/>
+
+  <rect class="shimmer" x="140" y="24" width="40" height="120" fill="#ffffff" opacity="0.08"/>
+</svg>
