@@ -9,7 +9,7 @@
 
   ### `AI Engineer` • `ML Specialist` • `Full-Stack Developer`
 
-  <img src="./assets/coding-header.gif" alt="Back view : typing at a minimal Apple multi-monitor desk" width="100%" />
+  <img src="./assets/coding-header.gif" alt="Back view typing loop at a minimal Apple multi-monitor desk" width="100%" />
 
   <br/>
 
@@ -63,8 +63,6 @@ Hey : I'm **Senuka**, an AI undergraduate at the **University of Moratuwa** (BSc
 <img src="./assets/divider.svg" alt="" width="100%" />
 
 ## Featured Projects
-
-> Details below are taken from my public repositories and contribution history (not guessed).
 
 <table>
   <tr>
